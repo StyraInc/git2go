@@ -8,6 +8,7 @@ import (
 /*
 #include <git2.h>
 #cgo darwin,amd64 LDFLAGS: -L${SRCDIR} -lgit2-darwin-amd64 -framework CoreFoundation -framework Security -lz -liconv
+#cgo darwin,arm64 LDFLAGS: -L${SRCDIR} -lgit2-darwin-arm64 -framework CoreFoundation -framework Security -lz -liconv
 #cgo linux,amd64 LDFLAGS: -L${SRCDIR} -lgit2-linux-amd64 -lssl -lcrypto -lz -lpthread -ldl
 
 #if LIBGIT2_VER_MAJOR != 0 || LIBGIT2_VER_MINOR != 28
